@@ -70,3 +70,5 @@ CFLAGS :
 CFLAGS = -g -O2 -Wall -I$(LUA_INC) $(MYCFLAGS)
 gcc $(CFLAGS)
 ```
+
+[参考资料](https://www.runoob.com/w3cnote/gcc-parameter-detail.html)
