@@ -48,6 +48,12 @@ searched for header files.
 然后再按常规的顺序去找。对于 #include<file>, gcc/g++ 会到 -I 制定的目录查找, 查找不到, 然后将到系统的默认的头文件目录查找 。
 ```
 
+-l :
+
+```text
+指定链接库的名称, etc: -l math, will find: libmath.so or libmath.a
+```
+
 -Wall
 
 ```text
